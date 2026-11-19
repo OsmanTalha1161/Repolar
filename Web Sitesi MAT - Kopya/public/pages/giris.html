@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş | Takım Yönetim Portalı</title>
+    <script src="../js/portal.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Takım Yönetim Portalı</h1>
+        <p>Hesabına giriş yap</p>
+    </header>
+    <main>
+        <h2>Giriş yap</h2>
+        <form id="girisForm">
+            <label>Kullanıcı adı <input name="kullanici" autocomplete="username" required></label><br>
+            <label>Şifre <input name="sifre" type="password" autocomplete="current-password" required></label><br>
+            <button>Giriş yap</button>
+        </form>
+        <p id="girisMesaji" role="alert"></p>
+        <h3>Örnek hesaplar (şifre: 1234)</h3>
+        <ul>
+            <li><button type="button" data-demo-user="ayse">Ayşe - Ana kaptan</button></li>
+            <li><button type="button" data-demo-user="mehmet">Mehmet - Yazılım yan kaptanı</button></li>
+            <li><button type="button" data-demo-user="zeynep">Zeynep - Mekanik yan kaptanı</button></li>
+            <li><button type="button" data-demo-user="elif">Elif - Üye</button></li>
+            <li><button type="button" data-demo-user="can">Can - Üye</button></li>
+        </ul>
+        <p>Bu örnek hesaplar deneme içindir.</p>
+    </main>
+    <footer><p>Takım Yönetim Portalı</p></footer>
+</body>
+</html>
+
